@@ -137,9 +137,9 @@ const routes: Route[] = [
     MatTabsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
-    AngularFireAuthModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    AngularFireAuthModule
   ],
   providers: [
     {provide: AbstractRentCompany, useExisting: RentCompanyService},

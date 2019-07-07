@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/RentCompanyFrontAngularMaterialDesign",
+    "public": "",
     "ignore": [
       "firebase.json",
       "**/.*",
